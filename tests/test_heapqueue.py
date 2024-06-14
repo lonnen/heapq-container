@@ -86,7 +86,7 @@ class TestHeapQueue:
         assert sorted_data == sorted(data)
 
     def test_tuple(self):
-        data = enumerate("abcde")
+        data = list(enumerate("abcde"))
         shuffle(data)
         assert data != sorted(data, key=lambda d: d[0])
         pq = HeapQueue(data)
