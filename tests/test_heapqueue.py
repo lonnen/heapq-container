@@ -101,7 +101,9 @@ class TestHeapQueue:
         for x in expected:
             priorities.append(ComplexObject(x, "DUMMY_ID"))
         shuffle(priorities)
-        assert [g.priority for g in priorities] != [p.priority for p in sorted(priorities)]
+        assert [g.priority for g in priorities] != [
+            p.priority for p in sorted(priorities)
+        ]
         # data is now shuffled
         pq = HeapQueue(priorities)
         hq_sorted = []
