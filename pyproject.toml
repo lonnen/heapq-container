@@ -1,5 +1,5 @@
 [project]
-name = "heapqueue"
+name = "heapq-container"
 version = "0.1"
 description = "a Container datatype wrapper for the Python standard library heapq module"
 readme = "README.md"
@@ -27,10 +27,10 @@ target-version = "py311"
 docstring-quotes = "double"
 
 [project.urls]
-Homepage = "https://github.com/lonnen/heapqueue"
-Changelog = "https://github.com/lonnen/heapqueue/releases"
-Issues = "https://github.com/lonnen/heapqueue/issues"
-CI = "https://github.com/lonnen/heapqueue/actions"
+Homepage = "https://github.com/lonnen/heapq-container"
+Changelog = "https://github.com/lonnen/heapq-container/releases"
+Issues = "https://github.com/lonnen/heapq-container/issues"
+CI = "https://github.com/lonnen/heapq-container/actions"
 
 
 [project.optional-dependencies]
