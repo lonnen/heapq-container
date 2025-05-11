@@ -3,7 +3,7 @@ name = "heapq-container"
 version = "0.1"
 description = "a Container datatype wrapper for the Python standard library heapq module"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 authors = [{name = "lonnen"}]
 license = {text = "Apache-2.0"}
 classifiers = [
